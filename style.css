@@ -11,8 +11,18 @@ body {
 .title {
     text-align: center;
     font-size: 6rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Pacifico', cursive; /* Use the Pacifico font */
+    color: #3498db; /* Initial text color */
+    margin-bottom: 20px;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
+
+.title:hover {
+    color: #e74c3c; /* Change text color on hover */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
 
 .images {
     display: flex;
